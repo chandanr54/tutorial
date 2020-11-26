@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+
+<servlet>
+<servlet-name>test</servlet-name>
+<servlet-class>com.ser_1.test</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>test</servlet-name>
+<url-pattern>/logg</url-pattern>
+
+</servlet-mapping>
+
+<servlet>
+<servlet-name>http_ser</servlet-name>
+<servlet-class>com.ser_1.http_test</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>http_ser</servlet-name>
+<url-pattern>/test1</url-pattern>
+
+</servlet-mapping>
+
+
+</web-app>

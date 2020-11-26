@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.chandan.model.Teacher" table="teacher">
+<id name="id"></id>
+<property name="name"></property>
+<property name="company"></property>
+</class>
+
+</hibernate-mapping>
